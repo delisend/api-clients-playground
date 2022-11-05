@@ -1,0 +1,40 @@
+{
+    "name": "delisend/api-clients-playground",
+    "keywords": ["delisend", "php", "api", "playground"],
+    "license": "MIT",
+    "homepage": "https://delisend.com/",
+    "authors": [
+        {
+            "name": "Rosi Group s.r.o.",
+            "email": "contact@rosigroup.com",
+            "homepage": "https://rosigroup.com",
+            "role": "Technical Support"
+        },
+        {
+            "name": "Delisend",
+            "email": "contact@delisend.com",
+            "homepage": "https://delisend.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8.0",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "delisend/delisend-php-api": "^1.0",
+        "vlucas/phpdotenv": "^5.4.1",
+        "psr/log": "^1.0 || ^2.0 || ^3.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "guzzlehttp/psr7": "^1.2",
+        "nunomaduro/collision": "^2.1",
+        "symfony/var-dumper": "^4.1"
+    },
+    "suggest": {
+        "ext-curl": "Required for CURL handler support",
+        "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+        "psr/log": "Required for using the Log middleware"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
