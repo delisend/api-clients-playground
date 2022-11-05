@@ -1,4 +1,8 @@
-idea/
+# Ignore IDE's configuration files
+.idea/
+
+# Ignoge for vscode
 .vscode/
 
-php/.env
+# Ignore build files
+build/*
